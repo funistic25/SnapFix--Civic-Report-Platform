@@ -1,4 +1,4 @@
-# 🏙️ Civic Reporting Platform  
+# 🏙️ Snapfix - Civic Reporting Platform  
 ### *(Public Maintenance Reporting System)*  
 
 A smart community-driven platform that enables citizens to report public maintenance issues — such as potholes, garbage, or water leaks — with **images, descriptions, and real-time tracking**.  
@@ -13,26 +13,35 @@ It allows citizens to report issues seamlessly, while officials can monitor, pri
 
 ---
 
+## 🌐 Live Demo
+🎥 **YouTube Demo:** [Watch on YouTube](https://youtu.be/u7jqRsIpRh0)
+🚀 **Deployed App:** [Try it Live on Mobile](https://sih-1-frontend.vercel.app/)
+
+---
+
 ## 🚀 Highlights  
 
-- 🧠 **AI-powered classification** — Detects issue type (pothole, garbage, leak, etc.) and identifies duplicates automatically.  
-- 📍 **Smart location tagging** — Auto-captures and maps issue locations for better tracking.  
-- ⚡ **Real-time updates** — Live dashboards built with Socket.io for instant synchronization.  
-- 🧑‍💻 **Role-based dashboards** — Separate interfaces for users, officers/admins, and AI system.  
-- 🔁 **Automated task routing** — Assigns tasks dynamically to relevant departments.  
-- 👍 **Upvoting system** — Citizens can prioritize pressing community issues.  
+- 🧾 **Issue Reporting:** Users can submit reports with description, location, and photos.  
+- 🧠 **AI Image Classification:** ML model automatically categorizes issues (e.g., road, garbage, water leak).  
+- 🗺️ **Geolocation Integration:** Auto-fetches user’s current location with reverse geocoding.  
+- ☁️ **Image Storage:** Uses **Cloudinary** for scalable image upload and storage.  
+- 💬 **Real-time Updates:** **Socket.io** enables live updates when new issues are reported or resolved.  
+- 👮 **Admin Dashboard:** Officials can view, verify, and update status of reports.  
+- 📱 **Responsive UI:** Built with React for mobile and desktop.
 
 ---
 
 ## 🧩 Tech Stack  
 
-| Layer | Technologies |
-|-------|---------------|
-| **Frontend** | React.js, Tailwind CSS |
-| **Backend** | Node.js, Express.js, Socket.io |
-| **Database** | MongoDB |
-| **AI Module** | Python (TensorFlow / Scikit-learn) |
-| **Others** | REST API, JWT Authentication, Cloudinary (for image storage) |
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| Database | MongoDB (Mongoose ORM) |
+| Real-time | Socket.io |
+| Cloud Storage | Cloudinary |
+| AI Model | Custom ML model (image classification using AutoML(Hugging Face)) |
+| Deployment | ( Render / Vercel ) |
 
 ---
 
@@ -45,38 +54,25 @@ The platform integrates a **custom ML model** that:
 
 ---
 
-## 🖥️ Dashboards  
-
-| Citizen Dashboard | Officer Dashboard | AI Classification |
-|-------------------|-------------------|-------------------|
-| ![User UI](assets/user_dashboard.png) | ![Admin UI](assets/admin_dashboard.png) | ![AI](assets/ai_model.png) |
-
----
-
 ## ⚙️ Setup Instructions  
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/<your-username>/civic-reporting-platform.git
+   git clone https://github.com/funistic25/civic-reporting-platform.git
    ```
 
 2. **Install Dependencies**
    ```bash
    # Backend
-   cd server && npm install
+   cd server1/backend
+   npm install
 
    # Frontend
-   cd ../client && npm install
+   cd ../client/frontend
+   npm install
    ```
 
-3. **Add Environment Variables**
-   ```bash
-   MONGO_URI=<your_mongodb_connection_string>
-   JWT_SECRET=<your_jwt_secret>
-   CLOUDINARY_URL=<your_cloudinary_api_key>
-   ```
-
-4. **Run the Application**
+3. **Run the Application**
    ```bash
    # Run backend
    npm run dev
@@ -99,8 +95,8 @@ The platform integrates a **custom ML model** that:
 
 ## 🚧 Future Improvements  
 
-- 🗺️ Map-based dashboard for real-time issue visualization.  
-- 📱 PWA support for mobile accessibility.  
+- 🗺️ Integration with municipal dashboards.  
+- 📱 Analytics dashboard for report insights.  
 - 🔮 AI severity prediction to auto-prioritize high-impact reports.  
 
 ---
@@ -108,7 +104,7 @@ The platform integrates a **custom ML model** that:
 ## 🧑‍💻 Author  
 
 **Samiullah Syed Hussain**  
-*Full Stack Developer | AI & Product Enthusiast*  
+*AI Engineer | ML Developer | Problem-Solving Enthusiast*  
 
 🔗 [LinkedIn](https://linkedin.com/in/samiullah-syed-hussain)  
-💻 [GitHub](https://github.com/<your-username>)  
+💻 [GitHub](https://github.com/funistic25)  
