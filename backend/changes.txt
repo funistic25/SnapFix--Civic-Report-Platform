@@ -1,0 +1,15 @@
+change title to category everywhere
+why updateTask ? in techcontroller
+keep success: true/false everywhere in res.send/json
+upload image by tech in resolveTask
+
+    why this ? 'const technician = await Technician.findById(assignedTechId);' when u already did req.technician=technician
+
+placed reportId in reportmodel (E001, E002, W001, W002..) -> wil check again
+whts with your tp.js? check and remove it
+
+make login for department->nmae, password
+
+upload image after technician resolves
+
+delte this file at last
