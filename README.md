@@ -106,5 +106,5 @@ The platform integrates a **custom ML model** that:
 **Samiullah Syed Hussain**  
 *AI Engineer | ML Developer | Problem-Solving Enthusiast*  
 
-🔗 [LinkedIn](https://linkedin.com/in/samiullah-syed-hussain)  
+🔗 [LinkedIn](https://linkedin.com/in/samiullahsyedhussain)  
 💻 [GitHub](https://github.com/funistic25)  
